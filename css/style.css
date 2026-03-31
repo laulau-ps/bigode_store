@@ -215,3 +215,88 @@ header {
         }
     }
 }
+
+.games-genres-section {
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 40px 92px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        width: 1096px;
+        max-height: fit-content;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+
+        h2 {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 140%;
+            color: rgba(24, 24, 24, 1);
+
+        }
+
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: right;
+            color: rgba(59, 68, 246, 1);
+        }
+    }
+
+    .cards {
+        max-width: fit-content;
+        max-height: fit-content;
+        display: flex;
+        gap: 16px;
+
+        .game {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 169px;
+            height: 169px;
+            border-radius: 8px;
+
+            p {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 130%;
+                text-align: center;
+                color: rgba(245, 244, 249, 1);
+            }
+
+
+        }
+
+        .card-1 {
+            background-image: url("../img/bg-strategy.svg");
+        }
+
+        .card-2 {
+            background-image: url("../img/bg-fps.svg");
+        }
+
+        .card-3 {
+            background-image: url("../img/bg-rpg.svg");
+        }
+
+        .card-4 {
+            background-image: url("../img/bg-puzzle.svg");
+        }
+
+        .card-5 {
+            background-image: url("../img/bg-roleplay.svg");
+        }
+
+        .card-6 {
+            background-image: url("../img/bg-sports.svg");
+        }
+
+    }
+}
