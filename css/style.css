@@ -5,6 +5,10 @@
     font-family: "Lexend";
 }
 
+body {
+    background: rgba(245, 244, 249, 1);
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -139,6 +143,75 @@ header {
 
                 }
             }
+        }
+    }
+}
+
+.why-us-section {
+    width: 913;
+    max-height: fit-content;
+    display: flex;
+    padding: 70px 0px;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 183px 0px 184px;
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        max-width: fit-content;
+        max-height: fit-content;
+        gap: 16px;
+
+        h2 {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 140%;
+            text-align: center;
+            color: rgba(24, 24, 24, 1);
+
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            text-align: center;
+            color: rgba(50, 50, 50, 1);
+
+        }
+    }
+
+    .cards {
+        display: flex;
+        gap: 83px;
+        max-width: fit-content;
+        max-height: fit-content;
+
+        .card {
+            width: 250px;
+            max-height: fit-content;
+            gap: 21px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 94px;
+                height: 94px;
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 130%;
+                text-align: center;
+                color: rgba(24, 24, 24, 1);
+            }
+
         }
     }
 }
