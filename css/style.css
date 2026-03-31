@@ -84,4 +84,61 @@ header {
             }
         }
     }
+
+    .promotion-carousel {
+
+        .title-cta {
+            max-width: fit-content;
+            max-width: fit-content;
+            display: flex;
+            gap: 64px;
+            flex-direction: column;
+            margin-top: 114px;
+            margin-left: 95px;
+
+            .title {
+                display: flex;
+                max-width: 438px;
+                max-height: fit-content;
+                gap: 26px;
+                flex-direction: column;
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 100%;
+                    color: rgba(255, 255, 255, 1);
+
+                }
+
+                h2 {
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 100%;
+                    color: rgba(255, 255, 255, 1);
+
+                }
+
+            }
+
+            .cta-button {
+                max-width: fit-content;
+                max-height: fit-content;
+                padding: 16px 32px;
+                gap: 10px;
+                border-radius: 8px;
+                background: rgba(59, 68, 246, 1);
+                display: flex;
+
+                a {
+                    text-decoration: none;
+                    font-size: 18px;
+                    line-height: 150%;
+                    text-align: center;
+                    color: rgba(255, 255, 255, 1);
+
+                }
+            }
+        }
+    }
 }
