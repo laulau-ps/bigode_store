@@ -13,7 +13,9 @@ header {
     display: flex;
     flex-direction: column;
     background-image: url("../img/banner.svg");
-    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 100%;
     height: 720px;
 
     .navbar {
@@ -734,6 +736,7 @@ header {
     padding: 50px 92px 80px 92px;
     gap: 24px;
     background: rgba(14, 14, 14, 1);
+    justify-content: center;
 
     .title {
         font-weight: 600;
@@ -952,15 +955,152 @@ header {
                 }
             }
 
-            img{
+            img {
                 width: 90px;
                 height: 90px;
             }
         }
 
-        .principal{
+        .principal {
             width: 338px;
             height: 333px;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    height: 369px;
+    padding: 50px 92px 92px 0px;
+    gap: 65px;
+    background: rgba(14, 14, 14, 1);
+    display: flex;
+    flex-direction: column;
+
+
+    .footer-content {
+        display: flex;
+        gap: 192px;
+        max-height: fit-content;
+        justify-content: center;
+
+        img {
+            width: 192px;
+            height: 51px;
+        }
+
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            width: fit-content;
+
+
+            h2 {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 150%;
+                color: rgba(245, 244, 249, 1);
+
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                width: fit-content;
+
+
+                a {
+                    font-family: "Roboto";
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: rgba(160, 160, 160, 1);
+                    text-decoration: none;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .resources {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            width: fit-content;
+
+
+            h2 {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 150%;
+                color: rgba(245, 244, 249, 1);
+
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                width: fit-content;
+
+
+                a {
+                    font-family: "Roboto";
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: rgba(160, 160, 160, 1);
+                    text-decoration: none;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .follow {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            h2 {
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 150%;
+                color: rgba(245, 244, 249, 1);
+
+            }
+
+            .social-icons {
+                display: flex;
+                gap: 12px;
+
+                img {
+                    width: 36px;
+                    height: 36px;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        display: flex;
+        padding-bottom: 22px;
+        gap: 22px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .line {
+            width: 1096px;
+            height: 1px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.04);
+
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 144%;
+            color: rgba(160, 160, 160, 1);
+
         }
     }
 }
